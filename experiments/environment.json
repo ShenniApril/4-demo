@@ -1,0 +1,45 @@
+{
+  "cpu": "Intel Core Ultra 5 125H",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "machine": "AMD64",
+  "logical_cpus": 18,
+  "memory": {
+    "total": 33777467392,
+    "available": 14777995264,
+    "percent": 56.2,
+    "used": 18999472128,
+    "free": 14777995264
+  },
+  "faiss": "1.10.0",
+  "numpy": "1.26.4",
+  "compile_options": "OPTIMIZE AVX2 ",
+  "train_threads": 4,
+  "search_threads": 1,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "mkl",
+      "num_threads": 4,
+      "prefix": "mkl_rt",
+      "filepath": "D:\\anaconda\\Library\\bin\\mkl_rt.2.dll",
+      "version": "2023.1-Product",
+      "threading_layer": "intel"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 4,
+      "prefix": "libomp",
+      "filepath": "D:\\anaconda\\Lib\\site-packages\\faiss_cpu.libs\\libomp140.x86_64-07aedf7287fc4e6e00f8128f5979c10e.dll",
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 18,
+      "prefix": "libiomp",
+      "filepath": "D:\\anaconda\\Library\\bin\\libiomp5md.dll",
+      "version": null
+    }
+  ]
+}

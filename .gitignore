@@ -1,0 +1,13 @@
+# Official datasets and trained indexes stay local.
+*.fbin
+*.ibin
+*.faiss
+*.transform
+*.tar
+*.tar.gz
+*.zip
+__pycache__/
+*.pyc
+.venv/
+.env
+*.log

@@ -1,0 +1,17 @@
+{
+  "base.fbin": {
+    "bytes": 4096000008,
+    "sha256": "aac20e9b0b5718a75efd0f148c67f010c814c24a05b5f0613f8c412993a54ca9",
+    "passed": true
+  },
+  "query.fbin": {
+    "bytes": 4096008,
+    "sha256": "e47d845df9236e415e745ffaa6c34d320abea7ce64a199bd42ec1aafa46b60d8",
+    "passed": true
+  },
+  "groundtruth.ibin": {
+    "bytes": 800008,
+    "sha256": "cf78c26a8a7b6455a0487235bd6d863d55d2c08b8d99a424e2fedce6a171eea6",
+    "passed": true
+  }
+}

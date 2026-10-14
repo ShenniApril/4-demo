@@ -1,0 +1,6 @@
+{
+  "exact_queries": 100,
+  "recall": 1.0,
+  "sec": 6.008686400018632,
+  "method": "blocked FP32 squared L2, top10; base only used in this validation stage"
+}
